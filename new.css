@@ -1,0 +1,46 @@
+.overlay {
+    position: fixed;
+    /* bottom: 0;
+    right: 0; */
+    background: rgba(255, 255, 255, 0.1);
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(20px);
+    z-index: 100;
+    text-align: center;
+    padding: 150px 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all .1s ease-out;
+}
+.overlay img{
+    position: center;
+    width: 50%;
+    margin: auto 0;
+}
+
+.overlay:target {
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    transition: all .1 ease-in;
+}
+
+  
+  .footer .credits a {
+    color: #fff;
+  }
+
+a{
+    color: #fff;
+}
+.credits{
+    color: white;
+}
+
+.footer .footer-bottom a:hover {
+    color: #fff;
+    border-color: #fff;
+  }
